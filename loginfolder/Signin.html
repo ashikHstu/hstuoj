@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body id="signin">
+  
+  <div class="header">
+
+    <link rel="stylesheet" href="signin.css">
+    
+      <img src="https://www.hstuoj.online/dipu/wp-content/uploads/2022/02/HSTUOJ.png" alt="HSTUOJ" />
+      <div class="header-right">
+        <a  href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="problemset.php">Problems</a>
+        <a href="contact.php">Contact Us</a>
+        <a href="signup.html">Sign Up</a>
+        <a class="active" href="signin.html">Sign In</a>
+      </div>
+    </div>
+    
+    <div class="login-page">
+      <div class="form">
+        <form class="register-form">
+          <input type="text" placeholder="name" />
+          <input type="password" placeholder="password"/>
+          <input type="text" placeholder="email address"/>
+          <button>create</button>
+          <p class="message">Already registered? <a href="Signin.html">Sign In</a></p>
+        </form>
+        <form class="login-form"  action="Signin.php" method="post">
+          <h4>Username : </h4><br>
+          <input type="text" placeholder="Username or Email" id = "username"  name="name" />
+          <input type="password" placeholder="password" id = "password" name="password" />
+          <button type="submit" name="submit">login</button>
+          <p class="message">Not registered? <a href="signup.html">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+    
+    <footer>
+      <p class="text-center">Copyright &copy; HSTUOJ</p>
+    </footer>
+
+
+
+</body>
+</html>
